@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Spotify - Your favorite music is here</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <nav>
+      <ul>
+        <li class="brand"><img src="logo.png" alt="Spotify" /> Spotify</li>
+        <li>Home</li>
+        <li>About</li>
+      </ul>
+    </nav>
+
+    <div class="container">
+      <div class="songList">
+        <h1>Best of NCS - No Copyright Sounds</h1>
+        <div class="songItmecontainer">
+          <div class="songItme">
+            <img src="covers/1.jpg" alt="1" />
+            <span class="songname">Arijit Singh All Song</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >49:19
+                <i
+                  id="0"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/2.jpg" alt="2" />
+            <span class="songname">Badi Katil Hasina</span>
+            <span class="songListplay"
+              ><span class="timestamp">
+                03:18
+                <i
+                  id="1"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/3.jpg" alt="3" />
+            <span class="songname">Chorni</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >03:00
+                <i
+                  id="2"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/4.jpg" alt="4" />
+            <span class="songname">Kahani Suno</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >02:52
+                <i
+                  id="3"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/5.jpg" alt="5" />
+            <span class="songname">Kesariya</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >04:28
+                <i
+                  id="4"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/6.jpg" alt="6" />
+            <span class="songname">Kya Lige Tom</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >03:53
+                <i
+                  id="5"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/7.jpg" alt="7" />
+            <span class="songname">Maan Mari Jaan</span>
+            <span class="songListplay"
+              ><span class="timestamp">
+                3:15
+                <i
+                  id="6"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/8.jpg" alt="8" />
+            <span class="songname">Malang sajna</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >02:37
+                <i
+                  id="7"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/9.jpg" alt="9" />
+            <span class="songname">Manike</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >03:17
+                <i
+                  id="8"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+          <div class="songItme">
+            <img src="covers/10.jpg" alt="10" />
+            <span class="songname">Raatan Lambiyan</span>
+            <span class="songListplay"
+              ><span class="timestamp"
+                >03:50
+                <i
+                  id="9"
+                  class="fas fa-1x songItmeplay fa-play"
+                  style="color: #000000"
+                ></i>
+              </span>
+            </span>
+          </div>
+        </div>
+      </div>
+      <div class="songbanner"></div>
+    </div>
+
+    <div class="bottom">
+      <input
+        type="range"
+        name="range"
+        id="myProgressBar"
+        value="0"
+        min="0"
+        max="100"
+      />
+      <div class="icons">
+        <div class="iconfont">
+          <i
+            class="fas fa-2x fa-backward"
+            id="previous"
+            style="color: #ffffff"
+          ></i>
+        </div>
+        <div class="iconfont">
+          <i
+            class="fas fa-2x fa-play"
+            id="masterPlay"
+            style="color: #ffffff"
+          ></i>
+        </div>
+        <div class="iconfont">
+          <i class="fas fa-2x fa-forward" id="next" style="color: #ffffff"></i>
+        </div>
+      </div>
+      <div class="songInfo">
+        <img src="playing.gif" width="58px" id="gif" alt="" /> Let me love you -
+        justin beiber
+      </div>
+    </div>
+    <!-- <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/js/all.min.js"
+      integrity="sha512-uKQ39gEGiyUJl4AI6L+ekBdGKpGw4xJ55+xyJG7YFlJokPNYegn9KwQ3P8A7aFQAUtUsAQHep+d/lrGqrbPIDQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script> -->
+    <!-- <script src="script1.js"></script> -->
+    <script src="script2.js"></script>
+  </body>
+</html>
